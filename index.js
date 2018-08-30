@@ -17,7 +17,7 @@ function dec(n) {
   return -- n 
 }
 function preserveDecimal(n) {
-  return parsedDecimal(n)
+  return parseFloat(n)
 }
   
   
